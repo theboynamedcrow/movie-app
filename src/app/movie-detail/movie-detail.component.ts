@@ -13,42 +13,24 @@ import { TmdbApiService } from '../tmdb-api.service';
 export class MovieDetailComponent implements OnInit {
   
   movieDetail: MovieDetail;
-  private imageConfig = {};
+  imageConfig;
+  requestToken;
   private imageDetail = {};
   imageUrl = "";
 
   
-
-
- /* getImageDetail(id){
-    var url = "https://api.themoviedb.org/3/movie/"+id+"/images?api_key="+this.keyV3+"&language=en-US&include_image_language=en";
-    this.http.get(url)
-        .subscribe(
-          res => this.imageDetail = res.json(),
-          error => this.imageDetail = error.text()
-        );
-  }*/
-  
-  ImageUrl(){
+  getImageUrl(){
     let url: string;
-    return "original"; //+ this.movieDetail.poster_path.toString(); //this.imageConfig.secure_base_url;// + "original" + this.movieDetail.poster_path;
+    let imgSize = "w185";
+    if (this.movieDetail && this.imageConfig){
+      url = this.imageConfig.images.secure_base_url + imgSize +  this.movieDetail.poster_path;
+    }
+    return url;
   }
-
 
 
   constructor(private tmdbApiService: TmdbApiService) {
-
   }
-
- // getMovieDetailById(id) {
-    
- //       this.http.get(url)
-  //      .subscribe(
-   //     data => { this.movieDetail = data.json()},
-   //     err => console.error(err),
-   //     () => console.log('done')
-   //   );
-   // }
 
   ngOnInit() {
     var localExample = "example_data/movie_detail.json";
@@ -60,9 +42,12 @@ export class MovieDetailComponent implements OnInit {
 
     this.tmdbApiService.getImageConfig()
       .subscribe(imageConfig => this.imageConfig = imageConfig);
-    //this.getImageDetail(id);
-    //this.getMovieDetailById(id);
-    //this.getImageUrl();
+
+      
+      
+      //this.tmdbApiService.getRequestToken()
+      //.subscribe(requestToken => this.requestToken = requestToken);
+      //console.log(this.requestToken);
   }
 
 }
