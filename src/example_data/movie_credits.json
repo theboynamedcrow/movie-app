@@ -1,0 +1,272 @@
+{
+    "id": 345,
+    "cast": [
+        {
+            "cast_id": 1,
+            "character": "Dr. William 'Bill' Harford",
+            "credit_id": "52fe423ac3a36847f800df1b",
+            "id": 500,
+            "name": "Tom Cruise",
+            "order": 0,
+            "profile_path": "/3oWEuo0e8Nx8JvkqYCDec2iMY6K.jpg"
+        },
+        {
+            "cast_id": 2,
+            "character": "Alice Harford",
+            "credit_id": "52fe423ac3a36847f800df1f",
+            "id": 2227,
+            "name": "Nicole Kidman",
+            "order": 1,
+            "profile_path": "/1ammEgq5D6qw5mM4WkgUmnxQ7Uy.jpg"
+        },
+        {
+            "cast_id": 3,
+            "character": "Helena Harford",
+            "credit_id": "52fe423ac3a36847f800df23",
+            "id": 5006,
+            "name": "Madison Eginton",
+            "order": 2,
+            "profile_path": "/aZ2X1q1XaGsD7hfdy9BuxMB6rFZ.jpg"
+        },
+        {
+            "cast_id": 4,
+            "character": "Roz",
+            "credit_id": "52fe423ac3a36847f800df27",
+            "id": 5007,
+            "name": "Jackie Sawiris",
+            "order": 3,
+            "profile_path": "/cLss5E3ZOCoSlT8mEhSsiJzCeio.jpg"
+        },
+        {
+            "cast_id": 5,
+            "character": "Victor Ziegler",
+            "credit_id": "52fe423ac3a36847f800df2b",
+            "id": 2226,
+            "name": "Sydney Pollack",
+            "order": 4,
+            "profile_path": "/zxkoU2diKtvarV1Qk4z9He2lJj9.jpg"
+        },
+        {
+            "cast_id": 6,
+            "character": "Illona Ziegler",
+            "credit_id": "52fe423ac3a36847f800df2f",
+            "id": 5008,
+            "name": "Leslie Lowe",
+            "order": 5,
+            "profile_path": null
+        },
+        {
+            "cast_id": 29,
+            "character": "Bandleader",
+            "credit_id": "53f1c816c3a3685af2004554",
+            "id": 1292351,
+            "name": "Peter Benson",
+            "order": 6,
+            "profile_path": "/ws1BahUp7EybJ7u1ovhRFubsjpX.jpg"
+        },
+        {
+            "cast_id": 8,
+            "character": "Nick Nightingale",
+            "credit_id": "52fe423ac3a36847f800df37",
+            "id": 5010,
+            "name": "Todd Field",
+            "order": 7,
+            "profile_path": "/kFKzr3OOz1oMhwhn9mYEkJsvkW.jpg"
+        },
+        {
+            "cast_id": 9,
+            "character": "Ziegler's Secretary",
+            "credit_id": "52fe423bc3a36847f800df3b",
+            "id": 5011,
+            "name": "Michael Doven",
+            "order": 8,
+            "profile_path": "/fkHxoBAvAkqHxzoP1ukcbPnaaUi.jpg"
+        },
+        {
+            "cast_id": 10,
+            "character": "Sandor Szavost",
+            "credit_id": "52fe423bc3a36847f800df3f",
+            "id": 5012,
+            "name": "Sky du Mont",
+            "order": 9,
+            "profile_path": "/8BEBOXP0BToOi4m9KBWAcWPGPlr.jpg"
+        },
+        {
+            "cast_id": 25,
+            "character": "Amanda 'Mandy' Curran",
+            "credit_id": "52fe423bc3a36847f800df97",
+            "id": 5023,
+            "name": "Julienne Davis",
+            "order": 10,
+            "profile_path": "/wwNoWvD5sdDAnRoVaj6jqYjLsRu.jpg"
+        },
+        {
+            "cast_id": 26,
+            "character": "Marion Nathanson",
+            "credit_id": "52fe423bc3a36847f800df9b",
+            "id": 5024,
+            "name": "Marie Richardson",
+            "order": 11,
+            "profile_path": "/2DhxYsLmTybbAewVQBNPflKgYYb.jpg"
+        },
+        {
+            "cast_id": 27,
+            "character": "Domino",
+            "credit_id": "52fe423bc3a36847f800df9f",
+            "id": 5025,
+            "name": "Vinessa Shaw",
+            "order": 12,
+            "profile_path": "/jMEm0tSVH3ZSqj5iXrHUhz9oLpu.jpg"
+        },
+        {
+            "cast_id": 28,
+            "character": "Milich's Daughter",
+            "credit_id": "52fe423bc3a36847f800dfa3",
+            "id": 22290,
+            "name": "Leelee Sobieski",
+            "order": 13,
+            "profile_path": "/aEltFc3gLQTVFbfjiVhPmpxe5xa.jpg"
+        },
+        {
+            "cast_id": 30,
+            "character": "Desk Clerk",
+            "credit_id": "5482496a9251414efa0075ff",
+            "id": 10697,
+            "name": "Alan Cumming",
+            "order": 14,
+            "profile_path": "/sGlkbGy5yWAKuAOzWVWPMONxM4f.jpg"
+        },
+        {
+            "cast_id": 31,
+            "character": "Milich",
+            "credit_id": "555c33099251416b53000a9a",
+            "id": 1118,
+            "name": "Rade Serbedzija",
+            "order": 15,
+            "profile_path": "/hbP9ku9cP8Q2cmdB9WIcpkPJaIL.jpg"
+        },
+        {
+            "cast_id": 32,
+            "character": "Red Cloak",
+            "credit_id": "559a160992514155d6002ded",
+            "id": 5020,
+            "name": "Leon Vitali",
+            "order": 16,
+            "profile_path": "/xwBhO23H91n91SFvyJTOEf9YpdT.jpg"
+        }
+    ],
+    "crew": [
+        {
+            "credit_id": "52fe423bc3a36847f800df45",
+            "department": "Directing",
+            "id": 240,
+            "job": "Director",
+            "name": "Stanley Kubrick",
+            "profile_path": "/ywoN9gI2lFOA5EAxxyRbQ1R4GQ6.jpg"
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df4b",
+            "department": "Writing",
+            "id": 5013,
+            "job": "Author",
+            "name": "Arthur Schnitzler",
+            "profile_path": "/k76tSaUoOlfPeim1DfH7UelpFmB.jpg"
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df51",
+            "department": "Writing",
+            "id": 240,
+            "job": "Screenplay",
+            "name": "Stanley Kubrick",
+            "profile_path": "/ywoN9gI2lFOA5EAxxyRbQ1R4GQ6.jpg"
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df57",
+            "department": "Writing",
+            "id": 5014,
+            "job": "Screenplay",
+            "name": "Frederic Raphael",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df5d",
+            "department": "Production",
+            "id": 240,
+            "job": "Producer",
+            "name": "Stanley Kubrick",
+            "profile_path": "/ywoN9gI2lFOA5EAxxyRbQ1R4GQ6.jpg"
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df63",
+            "department": "Production",
+            "id": 5015,
+            "job": "Producer",
+            "name": "Brian W. Cook",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df69",
+            "department": "Production",
+            "id": 5016,
+            "job": "Executive Producer",
+            "name": "Jan Harlan",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df6f",
+            "department": "Sound",
+            "id": 5017,
+            "job": "Original Music Composer",
+            "name": "Jocelyn Pook",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df75",
+            "department": "Camera",
+            "id": 5018,
+            "job": "Director of Photography",
+            "name": "Larry Smith",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df7b",
+            "department": "Editing",
+            "id": 5019,
+            "job": "Editor",
+            "name": "Nigel Galt",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df81",
+            "department": "Production",
+            "id": 2215,
+            "job": "Casting",
+            "name": "Denise Chamian",
+            "profile_path": "/mEn7U8Dt5zqnNMO0Y1YtXO7evS.jpg"
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df87",
+            "department": "Production",
+            "id": 5020,
+            "job": "Casting",
+            "name": "Leon Vitali",
+            "profile_path": "/xwBhO23H91n91SFvyJTOEf9YpdT.jpg"
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df8d",
+            "department": "Art",
+            "id": 5021,
+            "job": "Production Design",
+            "name": "Leslie Tomkins",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52fe423bc3a36847f800df93",
+            "department": "Art",
+            "id": 5022,
+            "job": "Production Design",
+            "name": "Roy Walker",
+            "profile_path": null
+        }
+    ]
+}

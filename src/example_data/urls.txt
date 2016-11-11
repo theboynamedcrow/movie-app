@@ -1,0 +1,29 @@
+
+Movie // Credits
+https://api.themoviedb.org/3/movie/345/credits?api_key=6b2da9ca30c12676e1c4654fc911c488
+
+Movie // Images - notice the language query string...
+https://api.themoviedb.org/3/movie/345/images?api_key=6b2da9ca30c12676e1c4654fc911c488&language=en-US&include_image_language=en,null
+
+Movie // Release Dates - 
+	types - 1. Premiere
+			2. Theatrical (limited)
+			3. Theatrical
+			4. Digital
+			5. Physical
+			6. TV
+https://api.themoviedb.org/3/movie/345/release_dates?api_key=6b2da9ca30c12676e1c4654fc911c488
+
+
+
+Movie // Videos
+https://api.themoviedb.org/3/movie/345/videos?api_key=6b2da9ca30c12676e1c4654fc911c488&language=en-US
+
+Movies // Now Playing
+https://api.themoviedb.org/3/movie/now_playing?api_key=6b2da9ca30c12676e1c4654fc911c488&language=en-US&page=1
+
+Jobs
+https://api.themoviedb.org/3/job/list?api_key=6b2da9ca30c12676e1c4654fc911c488
+
+Genres
+https://api.themoviedb.org/3/genre/movie/list?api_key=6b2da9ca30c12676e1c4654fc911c488&language=en-US
