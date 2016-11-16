@@ -1,28 +1,26 @@
-<div class="section group">
-	<div class="col movieImage">
-	This is column 1
+<div class="movie-detail">
+	<div class="poster">
+		<img [src]="getImageUrl()">
 	</div>
-	<div class="col span_1_of_2">
-	This is column 2
+	<div class="title">
+		<h1>
+			{{movieDetail?.title}}
+		</h1>
+	</div>
+	<div class="detail">
+		<span class="italics">{{movieDetail?.tagline}}</span>
+		<p class="overview">
+			{{movieDetail?.overview}}
+		</p>
 	</div>
 </div>
-<div class="title">
-<h1> 
-  {{movieDetail?.title}}
-</h1>
-</div>
-<div class="detail">
-<span class="italics">{{movieDetail?.tagline}}</span>
-<img [src]="getImageUrl()">
-<p>
-  {{movieDetail?.overview}}
-  
-  
-</p>
-<p>
-  {{ imageConfig | json }}
-</p>
-<p>{{movieDetail | json }}</p>
-<p></p>
-
+<div class="json">
+	<hr> ImageConfig JSON: <br>
+	<p>
+		{{ imageConfig | json }}
+	</p>
+	<br> MovieDetail JSON: <br>
+	<p>
+		{{movieDetail | json }}
+	</p>
 </div>

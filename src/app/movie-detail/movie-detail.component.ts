@@ -43,11 +43,6 @@ export class MovieDetailComponent implements OnInit {
     this.tmdbApiService.getImageConfig()
       .subscribe(imageConfig => this.imageConfig = imageConfig);
 
-      
-      
-      //this.tmdbApiService.getRequestToken()
-      //.subscribe(requestToken => this.requestToken = requestToken);
-      //console.log(this.requestToken);
   }
 
 }

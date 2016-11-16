@@ -28,7 +28,7 @@ export class TmdbApiService {
         err => console.error(err));
   }
 
-  buildHeaders(){
+ /* buildHeaders(){
     var headers = new Headers();
     headers.append('Content-Type', 'application/json;charset=utf-8');
     headers.append('Authorization', 'Bearer ' + this.keyV4);
@@ -45,7 +45,7 @@ export class TmdbApiService {
    return this.http.post(url, data, options)
     .map(res => res.json(),
         err => console.error(err));
-  }
+  }*/
 
 
   constructor(private http: Http) { }
