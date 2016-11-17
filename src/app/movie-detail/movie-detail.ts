@@ -1,11 +1,11 @@
-
+import { Genre } from './genre';
 
 export interface MovieDetail {
     adult: boolean; // false
     backdrop_path: string; // "/6xKCYgH16UuwEGAyroLU6p8HLIn.jpg"
     // belongs_to_collection: MovieCollection[]; // { MovieCollection }
     budget: number; // 6000000
-    //genres: Genre[]; // [ { Genre, Genre } ], 
+    genres: Genre[]; // [ { Genre, Genre } ], 
     homepage: string; // "http://www.thegodfather.com/",
     id: number; // 238, 
     imdb_id: string; // "tt0068646",

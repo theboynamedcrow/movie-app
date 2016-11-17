@@ -2,10 +2,6 @@
 {
     font-style: italic;
 }
-.detail
-{
-    border-width: thin;
-}
 .movie-detail
 {
 	width: 65%;
@@ -20,4 +16,8 @@
 .detail
 {
 	margin-left: 200px;
+}
+.json
+{
+	display: inline-block;
 }

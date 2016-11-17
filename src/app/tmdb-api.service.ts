@@ -28,6 +28,12 @@ export class TmdbApiService {
         err => console.error(err));
   }
 
+  getMovieCredits() {
+    let localPath = 'example_data/movie_credits.json';
+    return this.http.get(localPath)
+        .map(res => res.json(),
+        err => console.error(err));
+  }
  /* buildHeaders(){
     var headers = new Headers();
     headers.append('Content-Type', 'application/json;charset=utf-8');

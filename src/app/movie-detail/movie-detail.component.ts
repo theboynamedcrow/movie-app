@@ -14,11 +14,15 @@ export class MovieDetailComponent implements OnInit {
   
   movieDetail: MovieDetail;
   imageConfig;
+  movieCredits;
   requestToken;
   private imageDetail = {};
   imageUrl = "";
 
-  
+  getGenreInfo(genreId) {
+    console.log(genreId);
+  }
+
   getImageUrl(){
     let url: string;
     let imgSize = "w185";
@@ -42,6 +46,9 @@ export class MovieDetailComponent implements OnInit {
 
     this.tmdbApiService.getImageConfig()
       .subscribe(imageConfig => this.imageConfig = imageConfig);
+    
+    this.tmdbApiService.getMovieCredits()
+      .subscribe(movieCredits => this.movieCredits = movieCredits);
 
   }
 
