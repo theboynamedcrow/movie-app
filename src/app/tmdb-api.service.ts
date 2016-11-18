@@ -14,7 +14,7 @@ export class TmdbApiService {
   getMovieDetail(id) {
     let url = this.baseUrl+"3/movie/"+id+"?api_key="+this.keyV3+"&language=en-US";
     let localPath = 'example_data/movie_detail.json';
-    return this.http.get(localPath)
+    return this.http.get(url)
       .map(response => <MovieDetail>response.json(),
               err => console.error(err));
   }
@@ -28,11 +28,21 @@ export class TmdbApiService {
         err => console.error(err));
   }
 
-  getMovieCredits() {
+  getReleaseDates(id){
+    let v3Url = this.baseUrl + "3/movie/"+id+"/release_dates?api_key=" + this.keyV3;
+    let localPath = 'example_data/movie_release_dates.json';
+    return this.http.get(v3Url)
+        .map(res => res.json().results.filter(x => x.iso_3166_1 == "US")[0].release_dates,
+        err => console.error(err));
+  }
+
+  getMovieCredits(id) {
+    let v3Url = this.baseUrl + "3/movie/"+id+"/credits?api_key=" + this.keyV3;
     let localPath = 'example_data/movie_credits.json';
-    return this.http.get(localPath)
+    return this.http.get(v3Url)
         .map(res => res.json(),
         err => console.error(err));
+    
   }
  /* buildHeaders(){
     var headers = new Headers();

@@ -15,9 +15,27 @@
 			{{movieDetail?.overview}}
 		</p>
 	</div>
+	<hr>
+	<div class="release-dates">
+		<span *ngFor="let releaseDate of releaseDates">{{releaseDate.type}} {{releaseDate.release_date}} - {{releaseDate.certification}}</span>
+	</div>
+	<hr>
+	<div class="cast">
+		Cast:<br>
+		<span *ngFor="let castMember of movieCredits?.cast">{{castMember.name}}<br></span>
+	</div>
+	<hr>
+	<div class="crew">
+		Crew<br>
+		<span *ngFor="let crewMember of movieCredits?.crew">{{crewMember.name}} = {{crewMember.department}} - {{crewMember.job}}<br></span>
+	</div>
 	<hr>	
 </div>
 <div class="json">
+	<hr> ReleaseDates JSON: <br>
+	<p>
+		{{ releaseDates | json }}
+	</p>
 	<hr> MovieCredits JSON: <br>
 	<p>
 		{{ movieCredits | json }}

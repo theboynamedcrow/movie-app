@@ -16,8 +16,13 @@
 .detail
 {
 	margin-left: 200px;
+	padding-bottom: 30px;
 }
 .json
+{
+	display: inline-block;
+}
+.cast
 {
 	display: inline-block;
 }

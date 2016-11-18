@@ -4,6 +4,7 @@ import { AppComponent } from '../app.component';
 import { MovieDetail } from './movie-detail';
 import { Observable } from 'rxjs/Rx';
 import { TmdbApiService } from '../tmdb-api.service';
+import { MovieCredits, Cast, Crew } from './movie-credits';
 
 @Component({
   selector: 'app-movie-detail',
@@ -14,7 +15,8 @@ export class MovieDetailComponent implements OnInit {
   
   movieDetail: MovieDetail;
   imageConfig;
-  movieCredits;
+  movieCredits: MovieCredits;
+  releaseDates;
   requestToken;
   private imageDetail = {};
   imageUrl = "";
@@ -22,6 +24,7 @@ export class MovieDetailComponent implements OnInit {
   getGenreInfo(genreId) {
     console.log(genreId);
   }
+
 
   getImageUrl(){
     let url: string;
@@ -41,14 +44,17 @@ export class MovieDetailComponent implements OnInit {
     var id = 238; // 345 - EWS, 238 - Godfather, 
     //this.getMovieDetailById(movieId);
 
-    this.tmdbApiService.getMovieDetail(345)
+    this.tmdbApiService.getMovieDetail(id)
       .subscribe(movieDetail => this.movieDetail = movieDetail);
 
     this.tmdbApiService.getImageConfig()
       .subscribe(imageConfig => this.imageConfig = imageConfig);
     
-    this.tmdbApiService.getMovieCredits()
+    this.tmdbApiService.getMovieCredits(id)
       .subscribe(movieCredits => this.movieCredits = movieCredits);
+
+    this.tmdbApiService.getReleaseDates(id)
+      .subscribe(releaseDates => this.releaseDates = releaseDates);
 
   }
 
