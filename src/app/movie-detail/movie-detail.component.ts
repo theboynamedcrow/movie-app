@@ -22,6 +22,7 @@ export class MovieDetailComponent implements OnInit {
   imageUrl = "";
 
   getGenreInfo(genreId) {
+    // for testing... we will actually want to use href to go to different route in application
     console.log(genreId);
   }
 
@@ -34,6 +35,13 @@ export class MovieDetailComponent implements OnInit {
     }
     return url;
   }
+  getMovieYear(){
+    let year = "XXXX";
+    if (this.movieDetail){
+      year = this.movieDetail.release_date.substr(0,4);
+    }
+    return year;
+  }
 
 
   constructor(private tmdbApiService: TmdbApiService) {
@@ -41,7 +49,7 @@ export class MovieDetailComponent implements OnInit {
 
   ngOnInit() {
     var localExample = "example_data/movie_detail.json";
-    var id = 238; // 345 - EWS, 238 - Godfather, 
+    var id = 345; // 345 - EWS, 238 - Godfather, 
     //this.getMovieDetailById(movieId);
 
     this.tmdbApiService.getMovieDetail(id)

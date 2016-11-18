@@ -5,13 +5,14 @@
 	<div class="title">
 		<h1>
 			{{movieDetail?.title}}
+			<small>{{getMovieYear()}}</small>
 		</h1>
 	</div>
 	<hr>
 	<div class="detail">
 		<span class="italics">{{movieDetail?.tagline}}</span>
-		<button (click)="getGenreInfo(genre.id)" *ngFor="let genre of movieDetail?.genres">{{genre.name}}</button>
-		<p class="overview">
+		<a (click)="getGenreInfo(genre.id)" *ngFor="let genre of movieDetail?.genres" class="btn btn-default btn-xs" href="#" role="button">{{genre.name}}</a>
+		<p class="overview text-justify">
 			{{movieDetail?.overview}}
 		</p>
 	</div>

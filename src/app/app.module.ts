@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { MovieDetailComponent } from './movie-detail/movie-detail.component';
 import { TmdbApiService } from './tmdb-api.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
